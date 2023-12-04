@@ -4,11 +4,11 @@ services:
     image: jenkins/jenkins:lts
     restart: always
     privileged: true
-    user: root
+    user: jenkins
     ports:
       - 8080:8080
       - 50000:50000
     container_name: jenkins
     volumes:
-      - /home/GLA/Jenkins_Compose/jenkins_configuration:/var/jenkins_home
+      - /home/${HOST_USER}/Jenkins_Compose/jenkins_configuration:/var/jenkins_home
       - /var/run/docker.sock:/var/run/docker.sock
