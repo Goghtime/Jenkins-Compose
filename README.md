@@ -36,4 +36,7 @@ sudo chown -R 1000:1000 /home/GLA/Jenkins_Compose/jenkins_configuration
 docker compose logs --follow
 
 
-
+# Referances
+https://www.coachdevops.com/2022/08/install-jenkins-using-docker-run.html
+https://docs.docker.com/engine/install/ubuntu/
+https://docs.docker.com/engine/install/linux-postinstall/
