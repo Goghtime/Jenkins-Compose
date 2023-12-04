@@ -1,0 +1,43 @@
+# Jenkins specific
+jenkins.*
+*.log
+*.tmp
+*.old
+*.bak
+*.backup
+secrets/
+secret.key*
+identity.key.enc
+*.jks
+nodes/
+userContent/
+war/
+jobs/*/builds/
+jobs/*/workspace/  # remove workspace folder except specific job
+jobs/*/last*
+jobs/*/next*
+jenkins_configuration/logs/
+jenkins_configuration/secrets/
+jenkins_configuration/users/
+jenkins_configuration/nodes/
+jenkins_configuration/jobs/
+jenkins_configuration/war/
+jenkins_configuration/updates/
+jenkins_configuration/plugins/
+jenkins_configuration/.java/
+jenkins_configuration/secret.key
+jenkins_configuration/secret.key.not-so-secret
+jenkins_configuration/*.log
+jenkins_configuration/*.old
+jenkins_configuration/copy_reference_file.log
+jenkins_configuration/*.tmp
+
+# General System & IDE files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Temporary files
+temp/
+tmp/
