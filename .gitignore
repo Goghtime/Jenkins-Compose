@@ -37,6 +37,7 @@ jenkins_configuration/*.tmp
 Thumbs.db
 *.swp
 *~
+.env
 
 # Temporary files
 temp/
